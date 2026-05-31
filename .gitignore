@@ -1,41 +1,14 @@
-# Prerequisites
-*.d
+#include using namespace std;
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+int main (){ int nilai; cout << "Masukkan nilai: "; cin >> nilai;
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+if (nilai >=90){
+    cout << "Grade A\n";
+} else if (nilai >= 80){
+    cout << "Grade B\n";
+} else if (nilai >= 70){
+    cout << "Grade C\n";
+} else {
+    cout << "Grade D\n";
+}
+}
